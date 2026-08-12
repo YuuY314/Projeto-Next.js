@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    border: 2px solid var(--border);
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--surface);
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.form .input-group {
+    width: 100%;
+    gap: 1rem;
+}
+
+.form .input-group #clear-profile-picture {
+    color: var(--text);
+    align-self: flex-end;
+}

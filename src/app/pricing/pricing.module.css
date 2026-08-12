@@ -1,0 +1,5 @@
+.pricing_card {
+    width: 1000px;
+    display: flex;
+    background-color: var(--surface);
+}
