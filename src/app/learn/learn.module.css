@@ -1,0 +1,41 @@
+.main {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.section > div {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100px;
+    align-items: center;
+    gap: 1rem;
+    width: 33%;
+    height: auto;
+    background-color: var(--surface);
+    padding: 2rem;
+}
+
+.section > div > img {
+    width: 40%;
+}
+
+.section > div > div {
+    width: 100%;
+    gap: 1rem;
+}
+
+.section > div > div * {
+    width: 100%;
+}

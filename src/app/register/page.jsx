@@ -7,7 +7,7 @@ import { faPlus, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 export default function Register() {
   return (
     <main>
-        <form className="form" action="" method="POST" enctype="multipart/form-data">
+        <form className="form" action="" method="POST">
             <h1>Register</h1>
             <div className="input-group">
                 <label htmlFor="name">Full name</label>
@@ -28,7 +28,7 @@ export default function Register() {
              <div className="input-group">
                 <label htmlFor="profile-picture">Profile picture (Optional)</label>
                 <input type="file" name="profile-picture" id="profile-picture"></input>
-                <button type="button" onclick="document.querySelector('#profile-picture').value = ''" id="clear-profile-picture">Remove picture</button>
+                <button type="button" id="clear-profile-picture">Remove picture</button>
             </div>
             <Link href="/login" className="btn"><FontAwesomeIcon icon={faPlus}/>Register</Link>
         </form>
