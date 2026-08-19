@@ -1,0 +1,18 @@
+.banner_container_fluid {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+
+    background-color: brown;
+    color: whitesmoke;
+    font-weight: bold;
+
+    padding: 5rem;
+}
+
+.button_cta {
+    padding: 10px;
+    background-color: cornsilk;
+    border-radius: 25px;
+}

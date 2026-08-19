@@ -6,7 +6,7 @@ import { faPlus, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function Register() {
   return (
-    <main>
+    <main className="main">
         <form className="form" action="" method="POST">
             <h1>Register</h1>
             <div className="input-group">
