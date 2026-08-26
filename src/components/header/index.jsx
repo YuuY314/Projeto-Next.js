@@ -26,6 +26,7 @@ export default function Header(){
               <FontAwesomeIcon icon={faChevronDown} className="header-icon" />
             </div>
             <Link href="/contact">Contact</Link>
+            <Link href="/blog">Blog</Link>
           </nav>
           <div className="user">
             <FontAwesomeIcon icon={faMagnifyingGlass} className="icon" />
