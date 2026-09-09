@@ -13,3 +13,7 @@
     margin: auto;
     justify-content: flex-start;
 }
+
+.card_container img {
+    width: 100%;
+}
